@@ -1,3 +1,18 @@
+# vue_api_server
+## config -> default.json -> db_config
+```
+  	"db_config" : {
+		"protocol" : "mysql",
+		"host" : "127.0.0.1",
+		"database" : "mydb",
+		"user" : "root",
+		"password" : "xiao",
+		"port" : 3306
+```
+## 启动项目
+```
+  node app.js
+```
 # vue_shop
 
 ## Project setup
