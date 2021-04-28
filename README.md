@@ -9,6 +9,10 @@
 		"password" : "xiao",
 		"port" : 3306
 ```
+## MySQL不支持客户端
+```
+	ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'xiao';
+```
 ## 启动项目
 ```
   node app.js
